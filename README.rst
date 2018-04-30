@@ -2,26 +2,13 @@
 Packed-Memory Quadtree Supplementary Material
 ====================
 
-Packed-Memory Quadtree: a Cache-Oblivious Data Structure for Real-Time Range Queries of Large Streaming Spatiotemporal Datasets
+Packed-Memory Quadtree: a Cache-Oblivious Data Structure for Visual Exploration Of Streaming Spatiotemporal Big Data
 ---------------------------
 
 ABSTRACT
 ---------------------------
-The visual analysis of large multidimensional spatiotemporal datasets poses challenging
-questions regarding storage requirements and query performance. Several data struc-
-tures have recently been proposed to address these problems that rely on indexes that
-pre-compute different aggregations from a known-a-priori dataset. Consider now the
-problem of handling streaming datasets, in which data arrive as one or more continu-
-ous data streams. Such datasets introduce challenges to the data structure, which now
-has to support dynamic updates (insertions/deletions) and rebalancing operations to per-
-form self-reorganizations. In this work, we present Packed-Memory Quadtree (PMQ), a
-novel data structure designed to support visual exploration of streaming spatiotemporal
-datasets. The PMQ is cache-oblivious to perform well under different cache configura-
-tions. We store streaming data in an internal index that keeps a spatiotemporal ordering
-over the data following a quadtree representation, with support for real-time insertions
-and deletions. We validate our data structure under different dynamic scenarios and
-compare to competing strategies. We demonstrate how PMQ can be used to answer
-different types of visual spatiotemporal range queries of streaming datasets.
+The visual analysis of large multidimensional spatiotemporal datasets poses challenging questions regarding storage requirements and query performance. Several data structures have recently been proposed to address these problems that rely on indexes that
+pre-compute different aggregations from a known-a-priori dataset. Consider now the problem of handling streaming datasets, in which data arrive as one or more continuous data streams. Such datasets introduce challenges to the data structure, which now has to support dynamic updates (insertions/deletions) and rebalancing operations to perform self-reorganizations. In this work, we present the Packed-Memory Quadtree (PMQ), a novel data structure designed to support visual exploration of streaming spatiotemporal datasets. The PMQ is cache-oblivious to perform well under different cache configurations. We store streaming data in an internal index that keeps a spatiotemporal ordering over the data following a quadtree representation, with support for real-time insertions and deletions. We validate our data structure under different dynamic scenarios and compare to competing strategies. We demonstrate how PMQ can be used to answer different types of visual spatiotemporal range queries of streaming datasets.
 
 ====================
 Experiments with PMQ
