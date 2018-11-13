@@ -1,3 +1,20 @@
+.. figure:: https://img.shields.io/badge/version-1.0-blue.svg 
+
+.. figure:: https://img.shields.io/github/license/cicerolp/pmq.svg
+
+====================
+Related Repositores 
+====================
+
+- `Main Source Code <https://github.com/cicerolp/pmq>`_
+- `Supplementary Material <https://github.com/cicerolp/pmq-extras>`_
+
+====================
+Authors
+====================
+
+- Júlio Toss, Cícero L. Pahins, Bruno Raffin, and João L. Comba
+
 ====================
 Packed-Memory Quadtree Supplementary Material
 ====================
